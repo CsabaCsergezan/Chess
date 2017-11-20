@@ -1,0 +1,88 @@
+@import "/home/csaba/node_modules/bootstrap/scss/bootstrap.scss";
+
+	.container {
+		width: 100%;
+	}
+
+	table {
+
+		border: 1px solid black;
+		text-align: center;
+
+		td {
+			padding: 0px;
+		}
+
+		.white-cell {
+			width: 70px;
+			height: 70px;
+		}
+
+		.black-cell {
+			width: 70px;
+			height: 70px;
+			background-color: gray;
+		}
+
+		.king {
+			font-size: 40px;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			background: none;
+		}
+
+		.queen {
+			font-size: 40px;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			background: none;
+		}
+
+		.bishop {
+			font-size: 40px;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			background: none;
+		}
+
+		.knight {
+			font-size: 40px;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			background: none;
+		}
+
+		.rook {
+			font-size: 40px;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			background: none;
+		}
+
+		.pawn {
+			font-size: 40px;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			background: none;
+		}
+	}
+
+	#chess-table {
+		float: left;
+		margin-left: 100px;
+	}
+
+	#moves {
+		width: 400px;
+		height: 561px;
+		background: green;
+		margin-right: 150px;
+		float: right;
+		text-align: center;
+	}
