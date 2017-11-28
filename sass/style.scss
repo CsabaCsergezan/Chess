@@ -13,63 +13,49 @@
 			padding: 0px;
 		}
 
-		.white-cell {
+		.cell {
 			width: 70px;
 			height: 70px;
 		}
 
-		.black-cell {
-			width: 70px;
-			height: 70px;
+		.blackCell {
 			background-color: gray;
 		}
 
-		.king {
+		.selected {
+			background: yelow;
+		}
+
+		.piece {
 			font-size: 40px;
 			margin: 0;
 			padding: 0;
 			border: 0;
 			background: none;
+		}
+
+		.king {
+
 		}
 
 		.queen {
-			font-size: 40px;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			background: none;
+
 		}
 
 		.bishop {
-			font-size: 40px;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			background: none;
+
 		}
 
 		.knight {
-			font-size: 40px;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			background: none;
+
 		}
 
 		.rook {
-			font-size: 40px;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			background: none;
+
 		}
 
 		.pawn {
-			font-size: 40px;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			background: none;
+
 		}
 	}
 

@@ -5995,44 +5995,14 @@ table {
   text-align: center; }
   table td {
     padding: 0px; }
-  table .white-cell {
+  table .cell {
     width: 70px;
     height: 70px; }
-  table .black-cell {
-    width: 70px;
-    height: 70px;
+  table .blackCell {
     background-color: gray; }
-  table .king {
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: none; }
-  table .queen {
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: none; }
-  table .bishop {
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: none; }
-  table .knight {
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: none; }
-  table .rook {
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: none; }
-  table .pawn {
+  table .selected {
+    background: yelow; }
+  table .piece {
     font-size: 40px;
     margin: 0;
     padding: 0;

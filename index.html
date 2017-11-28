@@ -3,94 +3,15 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="jsCode.js"></script>
 </head>
 <body>
 	<main>
 		<center><h1>Chess</h1></center>
-			<div id="chess-table">
-				<table>
-					<tr>
-						<td class="white-cell"><span class="rook">&#9820;</span></td>
-						<td class="black-cell"><span class="knight">&#9822;</span></td>
-						<td class="white-cell"><span class="bishop">&#9821;</span></td>
-						<td class="black-cell"><span class="queen">&#9819;</span></td>
-						<td class="white-cell"><span class="king">&#9818;</span></td>
-						<td class="black-cell"><span class="bishop">&#9821;</span></td>
-						<td class="white-cell"><span class="knight">&#9822;</span></td>
-						<td class="black-cell"><span class="rook">&#9820;</span></td>
-					</tr>
-					<tr>
-						<td class="black-cell"><span class="pawn">&#9823;</span></td>
-						<td class="white-cell"><span class="pawn">&#9823;</span></td>
-						<td class="black-cell"><span class="pawn">&#9823;</span></td>
-						<td class="white-cell"><span class="pawn">&#9823;</span></td>
-						<td class="black-cell"><span class="pawn">&#9823;</span></td>
-						<td class="white-cell"><span class="pawn">&#9823;</span></td>
-						<td class="black-cell"><span class="pawn">&#9823;</span></td>
-						<td class="white-cell"><span class="pawn">&#9823;</span></td>
-					</tr>
-					<tr>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-					</tr>
-					<tr>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-					</tr>
-					<tr>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-					</tr>
-					<tr>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-						<td class="black-cell"></td>
-						<td class="white-cell"></td>
-					</tr>
-					<tr>
-						<td class="white-cell"><span class="pawn">&#9817;</span></center></td>
-						<td class="black-cell"><span class="pawn">&#9817;</span></center></td>
-						<td class="white-cell"><span class="pawn">&#9817;</span></center></td>
-						<td class="black-cell"><span class="pawn">&#9817;</span></center></td>
-						<td class="white-cell"><span class="pawn">&#9817;</span></center></td>
-						<td class="black-cell"><span class="pawn">&#9817;</span></center></td>
-						<td class="white-cell"><span class="pawn">&#9817;</span></center></td>
-						<td class="black-cell"><span class="pawn">&#9817;</span></center></td>
-					</tr>
-					<tr>
-						<td class="black-cell"><span class="rook">&#9814;</span></td>
-						<td class="white-cell"><span class="knight">&#9816;</span></td>
-						<td class="black-cell"><span class="bishop">&#9815;</span></td>
-						<td class="white-cell"><span class="queen">&#9813;</span></td>
-						<td class="black-cell"><span class="king">&#9812;</span></td>
-						<td class="white-cell"><span class="bishop">&#9815;</span></td>
-						<td class="black-cell"><span class="knight">&#9816;</span></td>
-						<td class="white-cell"><span class="rook">&#9814;</span></td>
-					</tr>
-				</table>
-			</div>
+			<div id="chess-table"></div>
 			<div id="moves">
 				<h3>history</h3>
 			</div>
